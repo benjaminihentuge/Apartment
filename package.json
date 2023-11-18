@@ -10,20 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "daisyui": "^3.0.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.9.0"
-=======
     "@babel/core": "^7.22.5",
     "daisyui": "^3.0.3",
     "firebase": "^9.23.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
-    "react-router-dom": "^6.13.0"
->>>>>>> hotel/ojuclinic
+    "react-router-dom": "^6.19.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
@@ -37,11 +30,7 @@
     "eslint-plugin-react-refresh": "^0.3.4",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2",
-<<<<<<< HEAD
-    "typescript": "^5.2.2",
-=======
     "typescript": "^5.0.2",
->>>>>>> hotel/ojuclinic
     "vite": "^4.3.9"
   }
 }

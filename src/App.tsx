@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-import NavBar from './components/common/NavBar';
-import Home from './components/pages/home/Home';
-import Footer from './components/common/Footer';
-
-const App = () => {
-  return (
-    <div className='bg-white'>
-      <NavBar />
-      <Home />
-      <Footer />
-    </div>
-  );
-};
-=======
 // import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavBar from './components/common/NavBar';
@@ -34,6 +19,5 @@ function App() {
     </BrowserRouter>
   );
 }
->>>>>>> hotel/ojuclinic
 
 export default App;

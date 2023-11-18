@@ -3,10 +3,7 @@ import glasses from '../../assets/Glasses_1.jpg';
 import eye_test from '../../assets/eye_test.jpg';
 import Header from './Header';
 import menu from '../../assets/menu.svg';
-<<<<<<< HEAD
-=======
 import { Link } from 'react-router-dom';
->>>>>>> hotel/ojuclinic
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
@@ -203,15 +200,9 @@ const NavBar = () => {
           </ul>
         </div>
         <div className='navbar-end'>
-<<<<<<< HEAD
-          <button className='btn normal-case text-white bg-[#b5f44a] hover:bg-white hover:text-brand text-[18px] rounded-full'>
-            <h2>Book Appointment</h2>
-          </button>
-=======
         <Link to="/booking-form"  className='btn normal-case text-white bg-[#b5f44a] hover:bg-white hover:text-brand text-[18px] rounded-full'>
             <h2>Book Appointment</h2>
         </Link>
->>>>>>> hotel/ojuclinic
         </div>
       </div>
     </div>
