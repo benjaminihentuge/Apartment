@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { AiFillHeart } from 'react-icons/ai';
 import { BsFillBagFill } from 'react-icons/bs';
 import oju_clinic from '../../assets/oju_clinic-bg.png';
@@ -6,6 +7,17 @@ import oju_clinic from '../../assets/oju_clinic-bg.png';
 const Header = () => {
   return (
     <div className=''>
+=======
+import React from 'react';
+import { AiFillHeart } from 'react-icons/ai';
+import { BsFillBagFill } from 'react-icons/bs';
+import oju_clinic from '../../assets/oju_clinic-bg.png';
+import { Link } from 'react-router-dom';
+
+const Header = () => {
+  return (
+    <div>
+>>>>>>> hotel/ojuclinic
       <div className='navbar bg-base-100'>
         <div className='navbar-start font-semibold hidden md:flex'>
           <img className='w-24 h-24' src={oju_clinic} alt='' />
@@ -16,7 +28,14 @@ const Header = () => {
         </div>
 
         <div className='navbar-end hidden md:flex'>
+<<<<<<< HEAD
           <button className='btn btn-ghost'>Log in</button>
+=======
+          <div>
+            <Link to="/form" className='btn btn-ghost'>LOG IN</Link>
+          </div>
+          
+>>>>>>> hotel/ojuclinic
           <button className='btn btn-ghost btn-circle'>
             <AiFillHeart className='text-[80%] text-black hover:text-blueColorsicon' />
           </button>
