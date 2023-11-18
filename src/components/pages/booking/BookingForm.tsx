@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import { useState } from 'react';
 import { database } from '../../utils/firebase-config';
-import { ref, push} from 'firebase/database';
+import { ref, push } from 'firebase/database';
 
 const BookingForm = () => {
   const [name, setName] = useState('');
